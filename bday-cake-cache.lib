@@ -1,6 +1,25 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Device_Battery_Cell
+#
+DEF Device_Battery_Cell BT 0 0 N N 1 F N
+F0 "BT" 100 100 50 H V L CNN
+F1 "Device_Battery_Cell" 100 0 50 H V L CNN
+F2 "" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
+DRAW
+S -90 70 90 60 0 1 0 F
+S -62 47 58 27 0 1 0 F
+P 2 0 1 0 0 30 0 0 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 20 135 60 135 N
+P 2 0 1 10 40 155 40 115 N
+X + 1 0 200 100 D 50 50 1 1 P
+X - 2 0 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_LED
 #
 DEF Device_LED D 0 40 N N 1 F N
@@ -67,34 +86,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# wickerlib_BATTERY-CR1220-3V-COIN
-#
-DEF wickerlib_BATTERY-CR1220-3V-COIN BAT 0 40 N N 1 F N
-F0 "BAT" 175 50 50 H V L CNN
-F1 "wickerlib_BATTERY-CR1220-3V-COIN" 175 -50 50 H V L CNN
-F2 "Wickerlib:BATT-HOLDER-CR1220-BK-916" 0 -350 50 H I C CIN
-F3 "http://www.memoryprotectiondevices.com/datasheets/BK-916-datasheet.pdf" 0 0 5 H I C CNN
-F4 "BATTERY CR1220 3V COIN CELL" 0 -350 50 H I C CIN "Description"
-F5 "Panasonic" 0 -350 50 H I C CIN "MF_Name"
-F6 "CR1220" 0 -350 50 H I C CIN "MF_PN"
-F7 "Digikey" 0 -350 50 H I C CIN "S1_Name"
-F8 "P033-ND" 0 -350 50 H I C CIN "S1_PN"
-F9 "490" 0 -350 50 H I C CIN "XSize_mils"
-F10 "490" 0 -350 50 H I C CIN "YSize_mils"
-F11 "dnp" 0 -350 50 H I C CIN "Type"
-DRAW
-C 0 0 141 0 1 0 N
-S -90 -7 90 -17 0 1 0 F
-S -90 50 90 40 0 1 0 F
-S -62 -30 58 -50 0 1 0 F
-S -62 27 58 7 0 1 0 F
-P 2 0 1 0 0 -50 0 -100 N
-P 2 0 1 0 0 50 0 100 N
-P 2 0 1 10 20 95 60 95 N
-P 2 0 1 10 40 115 40 75 N
 ENDDRAW
 ENDDEF
 #

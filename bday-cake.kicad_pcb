@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 39)
+    (drawings 40)
     (tracks 55)
     (zones 0)
     (modules 4)
@@ -286,6 +286,9 @@
     )
   )
 
+  (gr_text "1/24/2020\n" (at 209.55 -62.23) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text "Dear Mom," (at 194.31 -111.76) (layer B.Mask) (tstamp 5E264B3E)
     (effects (font (size 5.08 5.08) (thickness 0.635) italic) (justify mirror))
   )
